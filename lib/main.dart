@@ -12,3 +12,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp();
   }
 }
+
+//class seatpage라는 statelesswidget 생성
+class SeatPage extends StatelessWidget {}
