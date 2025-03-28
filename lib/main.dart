@@ -22,6 +22,7 @@ class SeatPage extends StatelessWidget {
     return Scaffold(
       //Scaffold 안에 appbar와 body-coulum 완성
       appBar: AppBar(title: Text('Seats')),
+      backgroundColor: Colors.grey, //seatpage backgroundcolor grey색으로 설정
       body: Column(children: [SeatSelectBox(), SeatBottom()]),
     );
   }
